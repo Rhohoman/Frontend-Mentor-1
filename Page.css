@@ -1,0 +1,35 @@
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.tanya-img {
+    grid-column: 11;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+.pattern-bg {
+    grid-column:  11;
+    grid-row: 1;
+}
+
+/* p {
+    font-family: 'Inter', sans-serif;
+}
+
+.txt-blk {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.title {
+    font-weight: 300;
+}
+ */
