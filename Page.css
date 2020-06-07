@@ -1,22 +1,55 @@
-.image-stack {
+.page-stack {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;   
+    justify-items: center;
+    align-items: center;
 }
 
 .tanya-img {
-    grid-column: 11;
+    grid-column: 2;
     grid-row: 1;
     padding-top: 20%;
-    z-index: 1;
 }
 
 .pattern-bg {
-    grid-column:  11;
+    grid-column:  2;
     grid-row: 1;
+    z-index: -1;
 }
 
-/* p {
+.button-group {
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 1;
+    margin-top: 41em;
+}
+
+button {
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px;
+}
+
+.quotation {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+.texts {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 50px;
+}
+
+
+p {
     font-family: 'Inter', sans-serif;
 }
 
@@ -32,4 +65,4 @@
 .title {
     font-weight: 300;
 }
- */
+
