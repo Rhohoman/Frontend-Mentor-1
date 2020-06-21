@@ -27,12 +27,26 @@
     grid-row: 1;
     z-index: 1;
     margin-top: 41em;
+    margin-left: 9em;
 }
 
-button {
-    padding: 10px 10px 10px 10px;
-    margin-right: 10px;
+.button-left {
+    padding: 12px 25px 12px 15px;
+    border-radius: 22px 0px 0px 22px;
+    background-color: white;
+    outline: none;
+    border: white;
 }
+
+.button-right {
+    padding: 12px 15px 12px 25px;
+    border-radius: 0px 22px 22px 0px;
+    background-color: white;
+    outline: none;
+    border: white;
+}
+
+
 
 .quotation {
     grid-column: 1;
