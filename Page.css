@@ -2,20 +2,24 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: relative;   
-    justify-items: center;
-    align-items: center;
+    /* justify-items: center;
+    align-items: center; */
 }
 
 .tanya-img {
     grid-column: 2;
     grid-row: 1;
-    padding-top: 20%;
+    /* padding-top: 20%; */
+    /* background-color: blue; */
+    margin-top: 9em;
+    margin-left: 4em;
 }
 
 .pattern-bg {
     grid-column:  2;
     grid-row: 1;
     z-index: -1;
+    margin-top: 5em;
 }
 
 .button-group {
@@ -66,3 +70,7 @@ p {
     font-weight: 300;
 }
 
+.bottom-bg {
+    display: flex;
+    align-items: flex-end;
+}
